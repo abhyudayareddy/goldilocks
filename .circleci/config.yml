@@ -53,7 +53,7 @@ jobs:
   test:
     working_directory: /home/circleci/go/src/github.com/fairwindsops/goldilocks
     docker:
-      - image: cimg/go:1.26.2
+      - image: cimg/go:1.26.5
         environment:
           GL_DEBUG: linters_output
           GOPACKAGESPRINTGOLISTERRORS: "1"
